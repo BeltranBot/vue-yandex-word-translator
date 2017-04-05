@@ -19,3 +19,13 @@ npm run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+# Optain your Yandex translator API key [here](https://tech.yandex.com/translate)
+
+# Set up your Yandex translator API key in the vue-yandex-word-translator/src/App.vue file
+
+    const apiKey = 'YOUR-YANDEX-TRANSLATOR-API-KEY-GOES-HERE'
+
+
+
