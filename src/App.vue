@@ -25,7 +25,7 @@ export default {
   methods: {
     translateText (text, language) {
       const apiURL = 'https://translate.yandex.net/api/v1.5/tr.json/translate'
-      const apiKey = 'trnsl.1.1.20170403T160829Z.36fd1e2201663cae.e3d26b15158f2aff90902e0d8ab857c903bdec97'
+      const apiKey = 'YOUR-YANDEX-TRANSLATOR-API-KEY-GOES-HERE'
       this.$http.get(apiURL +
         '?key=' + apiKey +
         '&lang=' + language +
